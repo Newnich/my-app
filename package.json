@@ -1,22 +1,42 @@
 {
   "name": "my-app",
   "version": "1.0.1",
-  "description": "Minimal Node starter app",
+  "description": "Tested Node.js utility library with CI and coverage",
   "main": "src/index.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
     "test": "jest",
     "coverage": "jest --coverage"
   },
-  "keywords": [],
-  "author": "Newnich",
+  "keywords": [
+    "utilities",
+    "node",
+    "jest",
+    "helpers"
+  ],
+  "author": "Newnich <trinidadchino16@gmail.com>",
   "license": "ISC",
   "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
   "devDependencies": {
     "jest": "^30.3.0"
   },
   "dependencies": {
     "node-fetch": "^3.3.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Newnich/my-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Newnich/my-app/issues"
+  },
+  "homepage": "https://github.com/Newnich/my-app#readme"
 }
