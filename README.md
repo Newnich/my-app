@@ -35,6 +35,19 @@ console.log(flatten([[1, 2], [3, 4]]));
 console.log(getEnv("PORT", 3000));
 ```
 
+## Subpath Imports
+
+The package supports subpath imports, so consumers can import only the module they need:
+
+```js
+const { sum } = require("newnich-my-app/utils");
+const { multiply } = require("newnich-my-app/math");
+const { unique } = require("newnich-my-app/array");
+const { fetchJson } = require("newnich-my-app/api");
+```
+
+This avoids importing internal file paths directly.
+
 ## Modules
 
 - `src/utils.js`: date formatting, summation, palindrome checks
