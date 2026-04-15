@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "newnich-my-app",
   "version": "1.0.1",
   "description": "Tested Node.js utility library with CI and coverage",
   "main": "src/index.js",
@@ -44,7 +44,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Newnich/my-app.git"
+    "url": "git+https://github.com/Newnich/my-app.git"
   },
   "bugs": {
     "url": "https://github.com/Newnich/my-app/issues"
