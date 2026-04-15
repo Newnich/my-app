@@ -1,6 +1,6 @@
 {
   "name": "newnich-my-app",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Tested Node.js utility library with CI and coverage",
   "main": "src/index.js",
   "exports": {
