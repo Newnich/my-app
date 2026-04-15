@@ -4,7 +4,18 @@
   "description": "Tested Node.js utility library with CI and coverage",
   "main": "src/index.js",
   "files": [
-    "src",
+    "src/api.js",
+    "src/array.js",
+    "src/async.js",
+    "src/config.js",
+    "src/date.js",
+    "src/errors.js",
+    "src/fs.js",
+    "src/index.js",
+    "src/logger.js",
+    "src/math.js",
+    "src/string.js",
+    "src/utils.js",
     "README.md"
   ],
   "scripts": {
