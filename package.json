@@ -3,6 +3,20 @@
   "version": "1.0.3",
   "description": "Tested Node.js utility library with CI and coverage",
   "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./api": "./src/api.js",
+    "./array": "./src/array.js",
+    "./async": "./src/async.js",
+    "./config": "./src/config.js",
+    "./date": "./src/date.js",
+    "./errors": "./src/errors.js",
+    "./fs": "./src/fs.js",
+    "./logger": "./src/logger.js",
+    "./math": "./src/math.js",
+    "./string": "./src/string.js",
+    "./utils": "./src/utils.js"
+  },
   "files": [
     "src/api.js",
     "src/array.js",
