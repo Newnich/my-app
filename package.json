@@ -1,14 +1,22 @@
 {
   "name": "my-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Minimal Node starter app",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "keywords": [],
-  "author": "",
+  "author": "Newnich",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
 }
